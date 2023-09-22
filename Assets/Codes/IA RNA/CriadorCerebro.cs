@@ -8,11 +8,15 @@ public class CriadorCerebro : MonoBehaviour
 
 
     //Variáveis da RNA
+    [Header("Parametros do Cerebro")]
     [SerializeField] string nomeRede;
     [SerializeField] int nEtrada;
     [SerializeField] int nSaida;
     [SerializeField] int[] cnOcuta;
     [SerializeField] bool ativar;
+
+
+    [Header("Iformasoes de Cerebros")]
     [SerializeField] GameObject[] cerebros;//Salvar
     [SerializeField] Transform target;
     [SerializeField] SaveCesrebos save = new SaveCesrebos();
